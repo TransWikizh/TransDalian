@@ -4,13 +4,6 @@ on:
   push:
     branches:
       - 'main'
-    paths:
-      - '.github/workflows/deploy.yaml'
-      - 'content/**'
-      - 'config/**'
-      - 'static/**'
-      - 'themes/**'
-      - 'package.json'
   workflow_dispatch:
 
 jobs:
