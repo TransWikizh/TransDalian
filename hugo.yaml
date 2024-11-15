@@ -2,3 +2,16 @@ baseURL: https://example.org/
 languageCode: zh-cn
 title: 大连跨性别资讯站
 theme: hextra
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: images/logo.svg
+      dark: images/logo-dark.svg
+
+  main:
+    - name: 进入文档临时
+      pageRef: /welcome
+      weight: 1
