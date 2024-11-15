@@ -3,6 +3,27 @@ languageCode: zh-cn
 title: 大连跨性别资讯站
 theme: hextra
 
+menu:
+  main:
+    - name: 文档导航
+      pageRef: /docs
+      weight: 1
+  sidebar:
+    - name: "就医诊断流程"
+      pageRef: "/docs/page1"
+      weight: 1
+    - name: "线下购药流程"
+      pageRef: "/docs/page2"
+      weight: 2
+    - name: "性别友善场所"
+      pageRef: "/docs/page3"
+      weight: 3
+    - name: "本地学校概况"
+      pageRef: "/docs/page4"
+      weight: 4
+    - name: "本地社群信息"
+      pageRef: "/docs/page5"
+      weight: 5
 params:
   navbar:
     displayTitle: true
@@ -10,8 +31,4 @@ params:
     logo:
       path: images/logo.svg
       dark: images/logo-dark.svg
-
-  main:
-    - name: 进入文档临时
-      pageRef: /welcome
-      weight: 1
+      link: /
